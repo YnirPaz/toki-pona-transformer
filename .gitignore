@@ -1,0 +1,44 @@
+# Downloaded corpora, processed text, token arrays, and local backups
+/data/
+/kulupu-lapo/
+/tatoeba-tokipona/
+/tatoeba-tokipona-processed/
+/wikipesija/
+/wikipesija-processed/
+/quality_audit.json
+/*.zip
+
+# Training outputs
+/runs/
+*.pt
+*.pth
+*.bin
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+.local-packages/
+*.egg-info/
+build/
+dist/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+.DS_Store
+Thumbs.db

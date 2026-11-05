@@ -1,0 +1,2 @@
+# Reading pinned Hugging Face Parquet files; downloads use the standard library.
+pyarrow>=18,<27
